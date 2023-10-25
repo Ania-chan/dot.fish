@@ -2,7 +2,6 @@ export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # PROMPT='%(?:%{%}♥ :%{%}♥ ) %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
-
 set -x EDITOR micro
 set -x SVN_EDITOR micro
 set -x VISUAL micro
@@ -20,6 +19,9 @@ set -x LIBRARY_PATH /opt/homebrew/lib
 
 # Prompt Hydro
 set --global hydro_symbol_prompt ♥
+
+# Color for Hydro
+set --global hydro_color_git red
 
 # Alias RipGrep to the SilverSurfer
 if command -sq rg
