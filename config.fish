@@ -54,3 +54,5 @@ alias python=/usr/bin/python3
 if command -sq rbenv
     status --is-interactive; and /opt/homebrew/bin/rbenv init - fish | source
 end
+
+set -g MICRO_TRUECOLOR 1
