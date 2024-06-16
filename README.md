@@ -1,3 +1,5 @@
+<img width="570" alt="Screenshot 2024-06-16 at 10 26 07" src="https://github.com/Ania-chan/dot.fish/assets/37947642/8d7e44e8-72a8-4583-88b0-aa41bfc4473c">
+
 ### Installation
 
 1. Clone the repo
